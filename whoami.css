@@ -1,0 +1,47 @@
+
+* {
+    margin:0;
+    padding:10px;
+}
+body {
+    background: black;
+
+}
+
+h1{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: azure;
+}
+h3{
+    position:relative;
+    width: 50%;
+    top:130px; 
+    margin-right: 50px;
+    color:azure;
+    font-family: 'Libre Caslon Display', serif;
+}
+
+div {
+    display: flex;
+    position: relative;
+    top:-50px;
+    left: 230px;
+    justify-content: right;
+    align-items: right;
+    margin-right: 10px;
+    width: 60%;
+  }
+
+ .gallery .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.9) grayscale(1);
+    transition: 0.3s ease-in-out;
+}
+ .gallery .img:hover img{
+    filter: brightness(1) grayscale(0);
+}
+

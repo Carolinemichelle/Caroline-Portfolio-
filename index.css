@@ -1,0 +1,37 @@
+body {
+   display: flex;
+   text-align: center;
+   padding: 50px 0 50px;
+   color: white;
+   flex-direction: column;
+   font-family: 'Libre Caslon Display', serif;
+   background-color: black;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+
+  
+} 
+
+div{
+    padding-top: 60px;
+    
+
+}
+a { 
+    
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    padding: 50px 0 30px;
+    color: white; 
+    text-decoration: none; 
+
+    
+}
+
+a:hover {
+    color:  rgba(255, 105, 205, 0.8);
+  
+    ;
+}

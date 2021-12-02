@@ -1,0 +1,101 @@
+ 
+body 
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:black;
+    font-family: 'Libre Caslon Display', serif;
+}
+
+h1 {
+    position: absolute;
+    top: 50px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container .box
+{
+    position:relative;
+    background: #fff;
+    padding: 20px 40px 40px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+.container .box:nth-child(1)
+{
+    background:  linear-gradient(217deg, rgba(255, 105, 205, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(159, 248, 159, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(125, 125, 245, 0.8), rgba(0,0,255,0) 70.71%);
+}
+.container .box:nth-child(2)
+{
+    background:  linear-gradient(217deg, rgba(255, 105, 205, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(159, 248, 159, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(125, 125, 245, 0.8), rgba(0,0,255,0) 70.71%);
+}
+.container .box:nth-child(3)
+{
+    background:  linear-gradient(217deg, rgba(255, 105, 205, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(159, 248, 159, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(125, 125, 245, 0.8), rgba(0,0,255,0) 70.71%);
+}
+.container .box:nth-child(4)
+{
+    background: linear-gradient(217deg, rgba(255, 105, 205, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(159, 248, 159, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(125, 125, 245, 0.8), rgba(0,0,255,0) 70.71%);
+}
+.container .box h2
+{
+    position:relative;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    color: #fff;
+    z-index: 1;
+    opacity: 0.4;
+}
+.container .box h3
+{
+margin: 0;
+padding: 0;
+color: #fff;
+font-size: 24px;
+text-transform: uppercase;
+
+}
+.container .box p
+{
+margin: 0;
+padding: 0;
+color: #fff;
+font-size: 15px;
+text-transform: uppercase;
+}
+.container .box{
+    filter: brightness(1) grayscale(1);
+    transition: 0.3s ease-in-out;
+}
+ .container .box:hover {
+    filter: brightness(1) grayscale(0);
+ }
